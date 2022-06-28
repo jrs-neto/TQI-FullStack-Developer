@@ -1,0 +1,51 @@
+:root{
+    --mainColor: #f7f7f7;
+    --darkColor: #1C1616;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: auto;
+    background-color: var(--mainColor);
+}
+
+.main-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter {
+    display: flex;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin: 0 1rem;
+    background-color: transparent;
+    border: 2px solid var(--darkColor);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
