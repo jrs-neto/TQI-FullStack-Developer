@@ -45,12 +45,6 @@ function calculadora() {
             alert(`${n1} elevado a ${n2}ª é igual a = ${resultado}`)
             novaOperacao();
         }
-/*         function soma() {
-            resultado = n1 + n2;
-            alert(`${n1} + ${n2} = ${resultado}`)
-            novaOperacao();
- 
-        } */
     }
 }
 
